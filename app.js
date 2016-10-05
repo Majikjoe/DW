@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
     $(".menu-link").hover(function() {
-        $(this).css("color", "gray");
+        $(this).css("color", "#0099ff");
     }, function() {
         $(this).css("color", "#595959");
     });
