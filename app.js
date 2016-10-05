@@ -3,9 +3,9 @@
  */
 
 $(document).ready(function(){
-    $("a").hover(function() {
+    $(".menu-link").hover(function() {
         $(this).css("color", "gray");
     }, function() {
-        $(this).css("color", "#333333");
+        $(this).css("color", "#595959");
     });
 });
