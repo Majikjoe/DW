@@ -34,8 +34,13 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="251">
               <caret line="915" column="25" selection-start-line="915" selection-start-column="25" selection-end-line="915" selection-end-column="25" />
+=======
+            <state relative-caret-position="191">
+              <caret line="1041" column="46" selection-start-line="1041" selection-start-column="46" selection-end-line="1041" selection-end-column="46" />
+>>>>>>> refs/remotes/origin/gh-pages
               <folding />
             </state>
           </provider>
@@ -209,10 +214,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="47090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1924" height="571" extended-state="1" />
+=======
+    <option name="totallyTimeSpent" value="34266000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1924" height="571" extended-state="0" />
+>>>>>>> refs/remotes/origin/gh-pages
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14046122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -414,6 +426,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="1041" column="46" selection-start-line="1041" selection-start-column="46" selection-end-line="1041" selection-end-column="46" />
+<<<<<<< HEAD
           <folding />
         </state>
       </provider>
@@ -486,6 +499,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="915" column="25" selection-start-line="915" selection-start-column="25" selection-end-line="915" selection-end-column="25" />
+=======
+>>>>>>> refs/remotes/origin/gh-pages
           <folding />
         </state>
       </provider>
