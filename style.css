@@ -14,6 +14,10 @@ header {
     background-color: white;
 
 }
+p{
+    font-size: 20px;
+}
+
 .logo{
     margin-left: 20px;
     margin-top: 0px;
@@ -21,7 +25,7 @@ header {
     float: left;
     height:60px;
     width: 100px;
-    background-image: url("img/logo.png");
+    background-image: url("img/dw_logotyp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -52,14 +56,14 @@ ul li {
     height: 600px;
     width:100%;
     background: linear-gradient(#1a1a1a, #333333);
-    /*background-image: url("img/banner.jpg");*/
+    background-image: url("img/banner.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .banner div {
     height:200px;
     width:200px;
-    padding-top:200px;
+    padding-top:10%;
     margin-left: auto;
     margin-right:auto;
     font-family: "Montserrat";
@@ -93,7 +97,7 @@ ul li {
     margin-top:20px;
     width: 500px;
     height: 500px;
-    background-image: url("img/responsive.png");
+    background-image: url("img/");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -104,7 +108,7 @@ ul li {
     width:90%;
     margin-left:auto;
     margin-right:auto;
-    margin-top:250px;
+    margin-top:0px;
     color: #595959;
     overflow: hidden;
 }
@@ -126,6 +130,13 @@ ul li {
     height:auto;
     display: block;
     float: left;
+}
+#projects {
+    margin-top:50px;
+    color: #0099ff;
+    font-family: Calibri;
+    text-align: center;
+    font-size: 30px;
 }
 .icon{
     display: block;
@@ -159,19 +170,20 @@ ul li {
 }
 
 #icon1{
-    background-image: url("img/internet.png");
+    background-image: url("img/docker.png");
 
 }
 #icon2{
-    background-image: url("img/imac.png");
+    background-image: url("img/folder.png");
 
 }
 #icon3{
-    background-image: url("img/smartphone.png");
+    background-image: url("img/imac.png");
 }
 #icon4{
-    background-image: url("img/tablet.png");
-}.icon p{
+    background-image: url("img/phone-call.png");
+}
+.icon p{
      margin-left:auto;
      margin-right:auto;
      width: 80%;
@@ -206,7 +218,7 @@ ul li {
     font-size: 20px;
 }
 .info-box{
-    width:80%;
+    width:90%;
     height:500px;
     margin-left:auto;
     margin-right:auto;
@@ -215,7 +227,7 @@ ul li {
     display: block;
     float: none;
     clear: both;
-    background-color: pink;
+
 }
 .info-box-left {
     width:50%;
@@ -238,7 +250,10 @@ ul li {
 .info-box .info-box-left div{
     height:100%;
     width: 100%;
-    background-color: #007acc;
+    background-image: url("img/banner.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     float: left;
     text-align: center;
@@ -252,7 +267,10 @@ ul li {
 .info-box .info-box-right div:nth-child(1) {
     height:50%;
     width: 100%;
-    background-color: dodgerblue;
+    background-image: url("img/dapper.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     float: left;
     text-align: center;
@@ -266,7 +284,10 @@ ul li {
 .info-box .info-box-right div:nth-child(2) {
     height:50%;
     width: 100%;
-    background-color: deepskyblue;
+    background-image: url("img/classy_4.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     float: left;
     text-align: center;
@@ -283,26 +304,46 @@ ul li {
 .info-box .info-box-right p {
     margin-top: 15%;
 }
+.video-box {
+    display: block;
+    float: none;
+    clear: both;
+    position: relative;
+    width:100%;
+    height:400px;
+}
+#ytplayer {
+    display: block;
+    float: left;
+    width:704px;
+    height:396px;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
 footer{
     display: block;
     float: none;
     clear: both;
     bottom:0;
-    height: 200px;
+    height: 100px;
     width:100%;
     background-color: white;
-    position: relative;
+    margin-top:100px;
 }
-#footer-logo{
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    top:30%;
-    left: 45%;
-    background-image: url("img/logo.png");
+#footer-logo {
+    padding-top: 50px;
+    width: 100px;
+    height: 50px;
+    background-image: url("img/dw_logotyp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -364,7 +405,7 @@ footer{
         float: left;
         height: 60px;
         width: 100px;
-        background-image: url("img/logo.png");
+        background-image: url("img/dw_logotyp.jpg");
         background-size: contain;
         background-repeat: no-repeat;
 
@@ -516,22 +557,19 @@ footer{
         background-position: center;
     }
 
-    #icon1 {
-        background-image: url("img/internet.png");
+    #icon1{
+        background-image: url("img/docker.png");
 
     }
+    #icon2{
+        background-image: url("img/folder.png");
 
-    #icon2 {
+    }
+    #icon3{
         background-image: url("img/imac.png");
-
     }
-
-    #icon3 {
-        background-image: url("img/smartphone.png");
-    }
-
-    #icon4 {
-        background-image: url("img/tablet.png");
+    #icon4{
+        background-image: url("img/phone-call.png");
     }
 
     .icon p {
@@ -661,28 +699,26 @@ footer{
         margin-top: 15%;
     }
 
-    footer {
+    footer{
         display: block;
         float: none;
         clear: both;
-        bottom: 0;
-        height: 200px;
-        width: 100%;
+        bottom:0;
+        height: 100px;
+        width:100%;
         background-color: white;
         position: relative;
+        margin-top:100px;
     }
-
-    #footer-logo {
-        width: 200px;
-        height: 100px;
+    #footer-logo{
+        width: 100px;
+        height: 50px;
         position: absolute;
-        top: 30%;
+        top:30%;
         left: 45%;
-        background-image: url("img/logo.png");
+        background-image: url("img/dw_logotyp.jpg");
         background-size: contain;
         background-repeat: no-repeat;
-
-    }
 }
 
 
@@ -735,7 +771,7 @@ footer{
         float: left;
         height: 60px;
         width: 100px;
-        background-image: url("img/logo.png");
+        background-image: url("img/dw_logotyp.jpg");
         background-size: contain;
         background-repeat: no-repeat;
 
@@ -887,22 +923,19 @@ footer{
         background-position: center;
     }
 
-    #icon1 {
-        background-image: url("img/internet.png");
+    #icon1{
+        background-image: url("img/docker.png");
 
     }
+    #icon2{
+        background-image: url("img/folder.png");
 
-    #icon2 {
+    }
+    #icon3{
         background-image: url("img/imac.png");
-
     }
-
-    #icon3 {
-        background-image: url("img/smartphone.png");
-    }
-
-    #icon4 {
-        background-image: url("img/tablet.png");
+    #icon4{
+        background-image: url("img/phone-call.png");
     }
 
     .icon p {
@@ -1032,28 +1065,26 @@ footer{
         margin-top: 15%;
     }
 
-    footer {
+    footer{
         display: block;
         float: none;
         clear: both;
-        bottom: 0;
-        height: 200px;
-        width: 100%;
+        bottom:0;
+        height: 100px;
+        width:100%;
         background-color: white;
         position: relative;
+        margin-top:100px;
     }
-
-    #footer-logo {
-        width: 200px;
-        height: 100px;
+    #footer-logo{
+        width: 100px;
+        height: 50px;
         position: absolute;
-        top: 30%;
+        top:30%;
         left: 45%;
-        background-image: url("img/logo.png");
+        background-image: url("img/dw_logotyp.jpg");
         background-size: contain;
         background-repeat: no-repeat;
-
-    }
 }
 
 
