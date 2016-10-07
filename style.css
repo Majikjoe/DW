@@ -3,7 +3,7 @@ html, body {
      padding: 0;
  }
 body {
-    background-color:  #e6e6e6;
+    background-color: white;
 }
 header {
     top: 0;
@@ -14,6 +14,10 @@ header {
     background-color: white;
 
 }
+p{
+    font-size: 20px;
+}
+/*
 .logo{
     margin-left: 20px;
     margin-top: 0px;
@@ -21,10 +25,37 @@ header {
     float: left;
     height:60px;
     width: 100px;
-    background-image: url("img/logo.png");
+    background-image: url("img/dw_logotyp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 
+}*/
+.logo {
+    display: block;
+    float: left;
+    position: relative;
+    color: #000;
+    height: 60px;
+    width:200px;
+    font-family:"Times New Roman";
+}
+.logo h6{
+    font-weight: lighter;
+    font-size: 30px;
+    left: 45px;
+    top: -70px;
+    position: absolute;
+}
+.logo h6 span{
+    display: inline-block;
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+.logo p{
+    font-size:14px;
+    position: absolute;
+    top: 20px;
+    left:20px;
 }
 header div a {
     height:50px;
@@ -48,18 +79,18 @@ ul li {
 .banner {
     display: block;
     clear: both;
-    margin-top: 60px;
+    margin-top: -30px;
     height: 600px;
     width:100%;
-    background: linear-gradient(#1a1a1a, #333333);
-    /*background-image: url("img/banner.jpg");*/
+    background-position: center;
+    background-image: url("img/banner.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .banner div {
     height:200px;
     width:200px;
-    padding-top:200px;
+    padding-top:10%;
     margin-left: auto;
     margin-right:auto;
     font-family: "Montserrat";
@@ -93,7 +124,7 @@ ul li {
     margin-top:20px;
     width: 500px;
     height: 500px;
-    background-image: url("img/responsive.png");
+    background-image: url("img/");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -101,11 +132,11 @@ ul li {
 .text-box {
     display: block;
     clear: both;
-    width:90%;
+    width:60%;
     margin-left:auto;
     margin-right:auto;
-    margin-top:250px;
-    color: #595959;
+    margin-top:0px;
+    color: #777777;
     overflow: hidden;
 }
 .text-box div:nth-child(1) {
@@ -119,6 +150,7 @@ ul li {
     font-family: Calibri;
     background-clip: content-box;
     padding:50px;
+    text-align: center;
 
 }
 .text-box div:nth-child(2) {
@@ -126,6 +158,13 @@ ul li {
     height:auto;
     display: block;
     float: left;
+}
+#projects {
+    margin-top:50px;
+    color: #666666;
+    font-family: Calibri;
+    text-align: center;
+    font-size: 30px;
 }
 .icon{
     display: block;
@@ -159,19 +198,20 @@ ul li {
 }
 
 #icon1{
-    background-image: url("img/internet.png");
+    background-image: url("img/docker.png");
 
 }
 #icon2{
-    background-image: url("img/imac.png");
+    background-image: url("img/telephone-operator.png");
 
 }
 #icon3{
-    background-image: url("img/smartphone.png");
+    background-image: url("img/envelope.png");
 }
 #icon4{
-    background-image: url("img/tablet.png");
-}.icon p{
+    background-image: url("img/big-data.png");
+}
+.icon p{
      margin-left:auto;
      margin-right:auto;
      width: 80%;
@@ -189,7 +229,7 @@ ul li {
     clear: both;
     height:30px;
     width:150px;
-    background-color: #0099ff;
+    border: 1px solid #060419;;
     text-align: center;
     padding-top:15px;
     padding-bottom:15px;
@@ -206,31 +246,28 @@ ul li {
     font-size: 20px;
 }
 .info-box{
-    width:80%;
-    height:500px;
+    width:100%;
+    height:600px;
     margin-left:auto;
     margin-right:auto;
     margin-top:700px;
-    margin-bottom:100px;
     display: block;
     float: none;
     clear: both;
-    background-color: pink;
+
 }
 .info-box-left {
     width:50%;
-    height:500px;
+    height:100%;
     box-sizing: border-box;
-    margin-bottom:20px;
     background-color: white;
     display: block;
     float: left;
 }
 .info-box-right {
     width:50%;
-    height:500px;
+    height:100%;
     box-sizing: border-box;
-    margin-bottom:20px;
     background-color: white;
     display: block;
     float: left;
@@ -238,7 +275,10 @@ ul li {
 .info-box .info-box-left div{
     height:100%;
     width: 100%;
-    background-color: #007acc;
+    background-image: url("img/banner.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     float: left;
     text-align: center;
@@ -252,7 +292,10 @@ ul li {
 .info-box .info-box-right div:nth-child(1) {
     height:50%;
     width: 100%;
-    background-color: dodgerblue;
+    background-image: url("img/dapper.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     float: left;
     text-align: center;
@@ -266,7 +309,10 @@ ul li {
 .info-box .info-box-right div:nth-child(2) {
     height:50%;
     width: 100%;
-    background-color: deepskyblue;
+    background-image: url("img/classy_4.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     float: left;
     text-align: center;
@@ -283,30 +329,112 @@ ul li {
 .info-box .info-box-right p {
     margin-top: 15%;
 }
+.video-box {
+    display: block;
+    float: none;
+    clear: both;
+    position: relative;
+    width:100%;
+    height:600px;
+    background-color: #060419;
+}
+.video-box div:nth-child(1) {
+    display: block;
+    float: left;
+    width:50%;
+    height:100%;
+}
+.video-box div:nth-child(2) {
+    display: block;
+    float: left;
+    width:50%;
+    height:100%;
+
+}
+.video-box-text h4 {
+    margin-top:20%;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: Calibri;
+}
+.video-box-text p {
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: Calibri;
+
+}
+#ytplayer {
+    display: block;
+    float: left;
+   /*width:929.28px;
+    height:522.72px;
+*/
+    width:704px;
+    height:396px;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+}
 footer{
     display: block;
     float: none;
     clear: both;
     bottom:0;
-    height: 200px;
+    height: 60px;
+    padding-top:20px;
+    padding-bottom: 10px;
     width:100%;
     background-color: white;
-    position: relative;
 }
-#footer-logo{
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    top:30%;
-    left: 45%;
-    background-image: url("img/logo.png");
+.footer-logo {
+    display: block;
+    float: left;
+    color: #000;
+    height: 60px;
+    width:100%;
+    font-family:"Times New Roman";
+}
+.footer-logo h6{
+    margin: 0;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+.footer-logo h6 span{
+    display: inline-block;
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+footer .footer-logo p {
+    margin: 0;
+    font-size:14px;
+    top: 0px;
+    color: #000;
+    text-align: center;
+}
+
+/*
+#footer-logo {
+    padding-top: 20px;
+    width: 100px;
+    height: 50px;
+    background-image: url("img/dw_logotyp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-
+*/
 
 
 
@@ -364,7 +492,7 @@ footer{
         float: left;
         height: 60px;
         width: 100px;
-        background-image: url("img/logo.png");
+        background-image: url("img/dw_logotyp.jpg");
         background-size: contain;
         background-repeat: no-repeat;
 
@@ -516,22 +644,19 @@ footer{
         background-position: center;
     }
 
-    #icon1 {
-        background-image: url("img/internet.png");
+    #icon1{
+        background-image: url("img/docker.png");
 
     }
+    #icon2{
+        background-image: url("img/folder.png");
 
-    #icon2 {
+    }
+    #icon3{
         background-image: url("img/imac.png");
-
     }
-
-    #icon3 {
-        background-image: url("img/smartphone.png");
-    }
-
-    #icon4 {
-        background-image: url("img/tablet.png");
+    #icon4{
+        background-image: url("img/phone-call.png");
     }
 
     .icon p {
@@ -661,28 +786,26 @@ footer{
         margin-top: 15%;
     }
 
-    footer {
+    footer{
         display: block;
         float: none;
         clear: both;
-        bottom: 0;
-        height: 200px;
-        width: 100%;
+        bottom:0;
+        height: 100px;
+        width:100%;
         background-color: white;
         position: relative;
+        margin-top:100px;
     }
-
-    #footer-logo {
-        width: 200px;
-        height: 100px;
+    #footer-logo{
+        width: 100px;
+        height: 50px;
         position: absolute;
-        top: 30%;
+        top:30%;
         left: 45%;
-        background-image: url("img/logo.png");
+        background-image: url("img/dw_logotyp.jpg");
         background-size: contain;
         background-repeat: no-repeat;
-
-    }
 }
 
 
@@ -735,7 +858,7 @@ footer{
         float: left;
         height: 60px;
         width: 100px;
-        background-image: url("img/logo.png");
+        background-image: url("img/dw_logotyp.jpg");
         background-size: contain;
         background-repeat: no-repeat;
 
@@ -887,22 +1010,19 @@ footer{
         background-position: center;
     }
 
-    #icon1 {
-        background-image: url("img/internet.png");
+    #icon1{
+        background-image: url("img/docker.png");
 
     }
+    #icon2{
+        background-image: url("img/folder.png");
 
-    #icon2 {
+    }
+    #icon3{
         background-image: url("img/imac.png");
-
     }
-
-    #icon3 {
-        background-image: url("img/smartphone.png");
-    }
-
-    #icon4 {
-        background-image: url("img/tablet.png");
+    #icon4{
+        background-image: url("img/phone-call.png");
     }
 
     .icon p {
@@ -1032,28 +1152,26 @@ footer{
         margin-top: 15%;
     }
 
-    footer {
+    footer{
         display: block;
         float: none;
         clear: both;
-        bottom: 0;
-        height: 200px;
-        width: 100%;
+        bottom:0;
+        height: 100px;
+        width:100%;
         background-color: white;
         position: relative;
+        margin-top:100px;
     }
-
-    #footer-logo {
-        width: 200px;
-        height: 100px;
+    #footer-logo{
+        width: 100px;
+        height: 50px;
         position: absolute;
-        top: 30%;
+        top:30%;
         left: 45%;
-        background-image: url("img/logo.png");
+        background-image: url("img/dw_logotyp.jpg");
         background-size: contain;
         background-repeat: no-repeat;
-
-    }
 }
 
 
