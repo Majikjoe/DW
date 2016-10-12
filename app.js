@@ -9,19 +9,10 @@ $(document).ready(function(){
         $(this).css("color", "#595959");
     });
 });
-<<<<<<< HEAD
 */
-=======
-
->>>>>>> refs/remotes/origin/master
 
 // Load the IFrame Player API code asynchronously.
-var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/player_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-<<<<<<< HEAD
 
 
 
@@ -30,7 +21,7 @@ $(document).ready(function(){
     var scroll_pos = 0;
     $(document).scroll(function() {
         scroll_pos = $(this).scrollTop();
-        if(scroll_pos > 600) {
+        if(scroll_pos > 450) {
 
             $("header").css('background-color', '#060419');
             $(".header ul li a").css('color', 'white');
@@ -62,8 +53,12 @@ $(document).ready(function(){
 });
 
 
-=======
->>>>>>> refs/remotes/origin/master
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
 // Replace the 'ytplayer' element with an <iframe> and
 // YouTube player after the API code downloads.
 var player;
@@ -76,7 +71,6 @@ function onYouTubePlayerAPIReady() {
             'controls': 0,
             'iv_load_policy': 3,
             'loop': 1,
-<<<<<<< HEAD
             'modestbranding': 1,
             'playlist': 'DdMtpHCZYU8'
         },
@@ -104,15 +98,3 @@ $('.mute-toggle').on('click', function() {
         mute_toggle.text('volume_off');
     }
 });
-=======
-            'playlist': 'DdMtpHCZYU8'
-        }
-    });
-}
-
-// 4. The API will call this function when the video player is ready.
-function onPlayerReady(event) {
-    event.target.playVideo();
-    player.mute();
-}
->>>>>>> refs/remotes/origin/master
