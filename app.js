@@ -85,16 +85,3 @@ function onPlayerReady(event){
     player.mute();
 }
 
-
-$('.mute-toggle').on('click', function() {
-    var mute_toggle = $(this);
-
-    if(player.isMuted()){
-        player.unMute();
-        mute_toggle.text('volume_up');
-    }
-    else{
-        player.mute();
-        mute_toggle.text('volume_off');
-    }
-});
