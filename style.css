@@ -191,14 +191,28 @@ h3 {
 
 }
 .text-box {
+    font-family: Calibri;
     display: block;
     clear: both;
-    width:60%;
+    width:40%;
     margin-left:auto;
     margin-right:auto;
-    margin-top:0px;
+    margin-top:300px;
     color: #777777;
     overflow: hidden;
+}
+.text-box h5 {
+    margin-bottom:10px;
+    color: deepskyblue;
+    text-align: left;
+    font-size: 20px;
+}
+.text-box p {
+    margin: 0;
+    padding:0;
+    background-clip: content-box;
+    text-align: left;
+
 }
 .text-box div:nth-child(1) {
     width:100%;
@@ -207,13 +221,7 @@ h3 {
     float: left;
 
 }
-.text-box p {
-    font-family: Calibri;
-    background-clip: content-box;
-    padding:50px;
-    text-align: center;
 
-}
 .text-box div:nth-child(2) {
     width:40%;
     height:auto;
@@ -655,25 +663,31 @@ footer{
     .text-box {
         display: block;
         clear: both;
-        width:90%;
+        width:60%;
         margin-left:auto;
         margin-right:auto;
-        margin-top:0px;
+        margin-top:100px;
         color: #777777;
         overflow: hidden;
+    }
+    .text-box h5 {
+        margin-bottom:10px;
+        color: deepskyblue;
+        text-align: left;
+        font-size: 20px;
+    }
+    .text-box p {
+        margin: 0;
+        padding:0;
+        background-clip: content-box;
+        text-align: left;
+
     }
     .text-box div:nth-child(1) {
         width:100%;
         height:auto;
         display: block;
         float: left;
-
-    }
-    .text-box p {
-        font-family: Calibri;
-        background-clip: content-box;
-        padding:50px;
-        text-align: center;
 
     }
     .text-box div:nth-child(2) {
@@ -1135,25 +1149,31 @@ footer{
     .text-box {
         display: block;
         clear: both;
-        width:90%;
+        width:60%;
         margin-left:auto;
         margin-right:auto;
-        margin-top:0px;
+        margin-top:100px;
         color: #777777;
         overflow: hidden;
+    }
+    .text-box h5 {
+        margin-bottom:10px;
+        color: deepskyblue;
+        text-align: left;
+        font-size: 20px;
+    }
+    .text-box p {
+        margin: 0;
+        padding:0;
+        background-clip: content-box;
+        text-align: left;
+
     }
     .text-box div:nth-child(1) {
         width:100%;
         height:auto;
         display: block;
         float: left;
-
-    }
-    .text-box p {
-        font-family: Calibri;
-        background-clip: content-box;
-        padding:50px;
-        text-align: center;
 
     }
     .text-box div:nth-child(2) {
@@ -1590,25 +1610,31 @@ footer{
     .text-box {
         display: block;
         clear: both;
-        width:90%;
+        width:80%;
         margin-left:auto;
         margin-right:auto;
-        margin-top:0px;
+        margin-top:100px;
         color: #777777;
         overflow: hidden;
+    }
+    .text-box h5 {
+        margin-bottom:10px;
+        color: deepskyblue;
+        text-align: left;
+        font-size: 20px;
+    }
+    .text-box p {
+        margin: 0;
+        padding:0;
+        background-clip: content-box;
+        text-align: left;
+
     }
     .text-box div:nth-child(1) {
         width:100%;
         height:auto;
         display: block;
         float: left;
-
-    }
-    .text-box p {
-        font-family: Calibri;
-        background-clip: content-box;
-        padding:50px;
-        text-align: center;
 
     }
     .text-box div:nth-child(2) {
