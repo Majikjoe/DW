@@ -66,24 +66,26 @@
         </div>
     </div>
 
-    <h3 id="projects">Projects</h3>
+    <h3 id="projects">Blog</h3>
 
-   <!--<div class="info-box">
-        <div class="info-box-left">
-            <div>
-                <p></p>
-            </div>
-        </div>
+    <?php?>
 
-        <div class="info-box-right">
-            <div>
-                <p></p>
-            </div>
-            <div>
-                <p></p>
-            </div>
-        </div>
-    </div>-->
+    <!--<div class="info-box">
+         <div class="info-box-left">
+             <div>
+                 <p></p>
+             </div>
+         </div>
+
+         <div class="info-box-right">
+             <div>
+                 <p></p>
+             </div>
+             <div>
+                 <p></p>
+             </div>
+         </div>
+     </div>-->
 
 
 
