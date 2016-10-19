@@ -68,7 +68,7 @@
 
     <h3 id="projects">Blog</h3>
 
-    <?php?>
+    <?php include "blog/index.php"?>
 
     <!--<div class="info-box">
          <div class="info-box-left">
