@@ -40,22 +40,15 @@ ul.topnav {
     background-color: #333;
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
+ul.topnav li {
+    float: left;
 }
-
-ul.topnav li a:hover {color: deepskyblue;}
-
-
-ul.topnav li.icon {display: none;}
+ul.topnav li a:hover {
+    color: deepskyblue;
+}
+ul.topnav li.icon {
+    isplay: none;
+}
 p{
     font-size: 20px;
 }
@@ -229,9 +222,10 @@ h3 {
 }
 #projects {
     margin-top:50px;
-    color: #666666;
-    font-family: Calibri;
+    margin-bottom:200px;
     text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #555555;
     font-size: 30px;
 }
 .info-box{
