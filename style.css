@@ -133,6 +133,8 @@ ul li {
     width:100%;
     height:520px;
     overflow: hidden;
+    position: relative;
+
 
 }
 .outer_face {
@@ -145,6 +147,7 @@ ul li {
     border: 0 solid gray; thickness of outer border */
     background-size: cover;
     background-repeat: no-repeat;
+    
 
 }
 .bg {
@@ -163,7 +166,6 @@ ul li {
     margin-left:auto;
     margin-right:auto;
     overflow: hidden;
-    background-color: lawngreen;
 }
 .outer_face::before, .outer_face::after, .outer_face .marker { /* time markers syle */
     content: "";
