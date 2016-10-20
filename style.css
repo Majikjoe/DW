@@ -163,6 +163,7 @@ ul li {
     margin-left:auto;
     margin-right:auto;
     overflow: hidden;
+    background-color: lawngreen;
 }
 .outer_face::before, .outer_face::after, .outer_face .marker { /* time markers syle */
     content: "";
