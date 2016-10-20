@@ -154,7 +154,7 @@ ul li {
     margin: 0;
     padding:0;
     position: relative;
-    width: 320px; /* width of clock */
+    width: 210px; /* width of clock */
     height: 450px; /* height of clock */
     /*border-radius: 200px; /clock round corner radius
     background: white;
@@ -163,6 +163,7 @@ ul li {
     background-image: url("klocka2.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin-left:auto;
     margin-right:auto;
     overflow: hidden;
@@ -229,8 +230,8 @@ ul li {
     -webkit-border-radius: 1000px;
     border-radius: 1000px;
     z-index: 1000;
-    left: 45.3%; /* set this value of 1/2 width value*/
-    top: 56.5%; /* set this value of 1/2 height value*/
+    left: 5%; /* set this value of 1/2 width value*/
+    top: 56.8%; /* set this value of 1/2 height value*/
     overflow: hidden;
 }
 
